@@ -1,0 +1,17 @@
+Java Launcher: C:\Program Files\Eclipse Adoptium\jdk-17.0.12.7-hotspot\bin\java.exe
+Arguments: '--task, SRG_TO_MCP, --input, C:\Users\Binar\.gradle\caches\modules-2\files-2.1\net.darkhax.bookshelf\Bookshelf-Forge-1.19.2\16.3.20\129da71db70f19703cd594d6d931b465e6a963f\Bookshelf-Forge-1.19.2-16.3.20.jar, --output, C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\net\darkhax\bookshelf\Bookshelf-Forge-1.19.2\16.3.20_mapped_official_1.19.2\Bookshelf-Forge-1.19.2-16.3.20_mapped_official_1.19.2.jar, --mcp, C:\Users\Binar\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.19.2\mapping-1.19.2-mapping.zip, --strip-signatures'
+Classpath:
+ - C:\Users\Binar\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.4.4\installertools-1.4.4-fatjar.jar
+Working directory: C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\build\_RenameSrg2Mcp_560448210
+Main class: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  C:\Users\Binar\.gradle\caches\modules-2\files-2.1\net.darkhax.bookshelf\Bookshelf-Forge-1.19.2\16.3.20\129da71db70f19703cd594d6d931b465e6a963f\Bookshelf-Forge-1.19.2-16.3.20.jar
+Output: C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\net\darkhax\bookshelf\Bookshelf-Forge-1.19.2\16.3.20_mapped_official_1.19.2\Bookshelf-Forge-1.19.2-16.3.20_mapped_official_1.19.2.jar
+MCP:    C:\Users\Binar\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.19.2\mapping-1.19.2-mapping.zip
+Loading MCP Data
+Processing ZIP file
+Stripped Manifest of sha digests
+Stripped signature entry data META-INF/DARKHAXM.SF
+Stripped signature entry data META-INF/DARKHAXM.RSA
+Process complete

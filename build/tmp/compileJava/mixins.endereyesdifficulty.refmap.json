@@ -1,0 +1,26 @@
+{
+  "mappings": {
+    "eu/asangarin/endereyesdifficulty/mixin/MixinCreateWorldScreenEED": {
+      "setWorldGenSettingsVisible": "Lnet/minecraft/client/gui/screens/worldselection/CreateWorldScreen;m_170196_(Z)V",
+      "init()V": "Lnet/minecraft/client/gui/screens/worldselection/CreateWorldScreen;m_7856_()V",
+      "render": "Lnet/minecraft/client/gui/screens/worldselection/CreateWorldScreen;m_6305_(Lcom/mojang/blaze3d/vertex/PoseStack;IIF)V"
+    },
+    "eu/asangarin/endereyesdifficulty/mixin/MixinOptionsScreenEED": {
+      "init": "Lnet/minecraft/client/gui/screens/OptionsScreen;m_7856_()V",
+      "Lnet/minecraft/client/gui/screens/OptionsScreen;createDifficultyButton(IIILjava/lang/String;Lnet/minecraft/client/Minecraft;)Lnet/minecraft/client/gui/components/CycleButton;": "Lnet/minecraft/client/gui/screens/OptionsScreen;m_193846_(IIILjava/lang/String;Lnet/minecraft/client/Minecraft;)Lnet/minecraft/client/gui/components/CycleButton;"
+    }
+  },
+  "data": {
+    "searge": {
+      "eu/asangarin/endereyesdifficulty/mixin/MixinCreateWorldScreenEED": {
+        "setWorldGenSettingsVisible": "Lnet/minecraft/client/gui/screens/worldselection/CreateWorldScreen;m_170196_(Z)V",
+        "init()V": "Lnet/minecraft/client/gui/screens/worldselection/CreateWorldScreen;m_7856_()V",
+        "render": "Lnet/minecraft/client/gui/screens/worldselection/CreateWorldScreen;m_6305_(Lcom/mojang/blaze3d/vertex/PoseStack;IIF)V"
+      },
+      "eu/asangarin/endereyesdifficulty/mixin/MixinOptionsScreenEED": {
+        "init": "Lnet/minecraft/client/gui/screens/OptionsScreen;m_7856_()V",
+        "Lnet/minecraft/client/gui/screens/OptionsScreen;createDifficultyButton(IIILjava/lang/String;Lnet/minecraft/client/Minecraft;)Lnet/minecraft/client/gui/components/CycleButton;": "Lnet/minecraft/client/gui/screens/OptionsScreen;m_193846_(IIILjava/lang/String;Lnet/minecraft/client/Minecraft;)Lnet/minecraft/client/gui/components/CycleButton;"
+      }
+    }
+  }
+}

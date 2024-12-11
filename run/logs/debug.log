@@ -1,0 +1,832 @@
+[10dic.2024 17:09:14.607] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\Binar\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.3.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, --mixin.config, mixins.endereyesdifficulty.json]
+[10dic.2024 17:09:14.612] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[10dic.2024 17:09:14.638] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[10dic.2024 17:09:14.652] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[10dic.2024 17:09:14.665] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[10dic.2024 17:09:14.674] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[10dic.2024 17:09:14.684] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[10dic.2024 17:09:14.692] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[10dic.2024 17:09:14.692] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[10dic.2024 17:09:14.694] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[10dic.2024 17:09:14.694] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[10dic.2024 17:09:14.694] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[10dic.2024 17:09:14.696] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[10dic.2024 17:09:14.696] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[10dic.2024 17:09:14.696] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
+[10dic.2024 17:09:14.697] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[10dic.2024 17:09:14.697] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.3+6.0.3+master.039e4ea9
+[10dic.2024 17:09:14.697] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[10dic.2024 17:09:14.698] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.1+15+master.dc5a2922
+[10dic.2024 17:09:14.699] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 6.0.0+6.0.0+master.42474703
+[10dic.2024 17:09:14.699] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
+[10dic.2024 17:09:14.702] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[10dic.2024 17:09:14.703] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[10dic.2024 17:09:14.707] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[10dic.2024 17:09:14.708] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[10dic.2024 17:09:14.719] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@4387b79e
+[10dic.2024 17:09:14.736] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Binar/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23126!/ Service=ModLauncher Env=CLIENT
+[10dic.2024 17:09:14.739] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[10dic.2024 17:09:14.739] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[10dic.2024 17:09:14.740] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[10dic.2024 17:09:14.741] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[10dic.2024 17:09:14.742] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[10dic.2024 17:09:14.742] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[10dic.2024 17:09:14.745] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[10dic.2024 17:09:14.746] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[10dic.2024 17:09:14.746] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[10dic.2024 17:09:14.747] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\run
+[10dic.2024 17:09:14.747] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\run
+[10dic.2024 17:09:14.747] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\run\mods
+[10dic.2024 17:09:14.748] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\run\mods
+[10dic.2024 17:09:14.748] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\run\config
+[10dic.2024 17:09:14.748] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\run\config
+[10dic.2024 17:09:14.748] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\run\config\fml.toml
+[10dic.2024 17:09:14.748] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[10dic.2024 17:09:14.793] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\run\defaultconfigs
+[10dic.2024 17:09:14.793] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[10dic.2024 17:09:14.796] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[10dic.2024 17:09:14.796] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeclientuserdev as launch service
+[10dic.2024 17:09:14.812] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=43.3.0, mcVersion=1.19.2, mcpVersion=20220805.130853, forgeGroup=net.minecraftforge]
+[10dic.2024 17:09:14.813] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[10dic.2024 17:09:14.813] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[10dic.2024 17:09:14.813] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
+[10dic.2024 17:09:14.813] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[10dic.2024 17:09:14.814] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[10dic.2024 17:09:14.814] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[10dic.2024 17:09:14.814] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[10dic.2024 17:09:14.814] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[10dic.2024 17:09:14.822] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[10dic.2024 17:09:14.826] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[10dic.2024 17:09:14.826] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[10dic.2024 17:09:14.831] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates enderdifficulty%%C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\build\resources\main;enderdifficulty%%C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\build\classes\java\main from env
+[10dic.2024 17:09:14.832] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{enderdifficulty=[C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\build\resources\main, C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\build\classes\java\main]}]
+[10dic.2024 17:09:14.976] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.2-43.3.0_mapped_official_1.19.2-recomp.jar with {minecraft} mods - versions {1.19.2}
+[10dic.2024 17:09:14.980] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Binar\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.3.0\2edd99fb09dd01b6487188e8da2ce4b034d79217\javafmllanguage-1.19.2-43.3.0.jar
+[10dic.2024 17:09:14.980] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Binar\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.3.0\2edd99fb09dd01b6487188e8da2ce4b034d79217\javafmllanguage-1.19.2-43.3.0.jar is missing mods.toml file
+[10dic.2024 17:09:14.982] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Binar\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.3.0\5facdae56496bfc1ea0e1dbe1385463d7aa7bc69\lowcodelanguage-1.19.2-43.3.0.jar
+[10dic.2024 17:09:14.983] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Binar\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.3.0\5facdae56496bfc1ea0e1dbe1385463d7aa7bc69\lowcodelanguage-1.19.2-43.3.0.jar is missing mods.toml file
+[10dic.2024 17:09:14.985] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Binar\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.3.0\3da09fccf425982d55412b36aaffe711fcff8740\mclanguage-1.19.2-43.3.0.jar
+[10dic.2024 17:09:14.985] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Binar\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.3.0\3da09fccf425982d55412b36aaffe711fcff8740\mclanguage-1.19.2-43.3.0.jar is missing mods.toml file
+[10dic.2024 17:09:14.989] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Binar\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.3.0\5db2801308d3c89c8ef4750f3d8a402a8d3a7522\fmlcore-1.19.2-43.3.0.jar
+[10dic.2024 17:09:14.989] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Binar\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.3.0\5db2801308d3c89c8ef4750f3d8a402a8d3a7522\fmlcore-1.19.2-43.3.0.jar is missing mods.toml file
+[10dic.2024 17:09:14.992] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\build\resources\main
+[10dic.2024 17:09:14.997] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {enderdifficulty} mods - versions {1.0.2}
+[10dic.2024 17:09:15.000] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[10dic.2024 17:09:15.002] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {43.3.0}
+[10dic.2024 17:09:15.015] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\net\darkhax\bookshelf\Bookshelf-Forge-1.19.2\16.3.20_mapped_official_1.19.2\Bookshelf-Forge-1.19.2-16.3.20_mapped_official_1.19.2.jar
+[10dic.2024 17:09:15.016] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Bookshelf-Forge-1.19.2-16.3.20_mapped_official_1.19.2.jar with {bookshelf} mods - versions {16.3.20}
+[10dic.2024 17:09:15.019] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\net\darkhax\gamestages\GameStages-Forge-1.19.2\11.1.4_mapped_official_1.19.2\GameStages-Forge-1.19.2-11.1.4_mapped_official_1.19.2.jar
+[10dic.2024 17:09:15.020] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file GameStages-Forge-1.19.2-11.1.4_mapped_official_1.19.2.jar with {gamestages} mods - versions {11.1.4}
+[10dic.2024 17:09:15.022] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\konkrete-410295\5028409_mapped_official_1.19.2\konkrete-410295-5028409_mapped_official_1.19.2.jar
+[10dic.2024 17:09:15.023] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file konkrete-410295-5028409_mapped_official_1.19.2.jar with {konkrete} mods - versions {1.8.0}
+[10dic.2024 17:09:15.026] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\net\darkhax\bookshelf\Bookshelf-Forge-1.19.2\16.3.20_mapped_official_1.19.2\Bookshelf-Forge-1.19.2-16.3.20_mapped_official_1.19.2.jar
+[10dic.2024 17:09:15.027] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Bookshelf-Forge-1.19.2-16.3.20_mapped_official_1.19.2.jar with {bookshelf} mods - versions {16.3.20}
+[10dic.2024 17:09:15.030] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\net\darkhax\gamestages\GameStages-Forge-1.19.2\11.1.4_mapped_official_1.19.2\GameStages-Forge-1.19.2-11.1.4_mapped_official_1.19.2.jar
+[10dic.2024 17:09:15.030] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file GameStages-Forge-1.19.2-11.1.4_mapped_official_1.19.2.jar with {gamestages} mods - versions {11.1.4}
+[10dic.2024 17:09:15.034] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\konkrete-410295\5028409_mapped_official_1.19.2\konkrete-410295-5028409_mapped_official_1.19.2.jar
+[10dic.2024 17:09:15.035] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file konkrete-410295-5028409_mapped_official_1.19.2.jar with {konkrete} mods - versions {1.8.0}
+[10dic.2024 17:09:15.040] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid bookshelf, selecting most recent based on version data
+[10dic.2024 17:09:15.040] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file Bookshelf-Forge-1.19.2-16.3.20_mapped_official_1.19.2.jar for modid bookshelf with version 16.3.20
+[10dic.2024 17:09:15.040] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid konkrete, selecting most recent based on version data
+[10dic.2024 17:09:15.040] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file konkrete-410295-5028409_mapped_official_1.19.2.jar for modid konkrete with version 1.8.0
+[10dic.2024 17:09:15.041] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid gamestages, selecting most recent based on version data
+[10dic.2024 17:09:15.041] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file GameStages-Forge-1.19.2-11.1.4_mapped_official_1.19.2.jar for modid gamestages with version 11.1.4
+[10dic.2024 17:09:15.046] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from forge-1.19.2-43.3.0_mapped_official_1.19.2-recomp.jar, it does not contain dependency information.
+[10dic.2024 17:09:15.046] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from Bookshelf-Forge-1.19.2-16.3.20_mapped_official_1.19.2.jar, it does not contain dependency information.
+[10dic.2024 17:09:15.046] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from , it does not contain dependency information.
+[10dic.2024 17:09:15.046] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from main, it does not contain dependency information.
+[10dic.2024 17:09:15.047] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from konkrete-410295-5028409_mapped_official_1.19.2.jar, it does not contain dependency information.
+[10dic.2024 17:09:15.047] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from GameStages-Forge-1.19.2-11.1.4_mapped_official_1.19.2.jar, it does not contain dependency information.
+[10dic.2024 17:09:15.047] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mclanguage-1.19.2-43.3.0.jar, it does not contain dependency information.
+[10dic.2024 17:09:15.047] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from javafmllanguage-1.19.2-43.3.0.jar, it does not contain dependency information.
+[10dic.2024 17:09:15.047] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from fmlcore-1.19.2-43.3.0.jar, it does not contain dependency information.
+[10dic.2024 17:09:15.047] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from lowcodelanguage-1.19.2-43.3.0.jar, it does not contain dependency information.
+[10dic.2024 17:09:15.074] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[10dic.2024 17:09:15.076] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.2-43.3.0_mapped_official_1.19.2-recomp.jar with {minecraft} mods - versions {1.19.2}
+[10dic.2024 17:09:15.078] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Binar\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.3.0_mapped_official_1.19.2\forge-1.19.2-43.3.0_mapped_official_1.19.2-recomp.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[10dic.2024 17:09:15.079] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\net\darkhax\bookshelf\Bookshelf-Forge-1.19.2\16.3.20_mapped_official_1.19.2\Bookshelf-Forge-1.19.2-16.3.20_mapped_official_1.19.2.jar
+[10dic.2024 17:09:15.080] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Bookshelf-Forge-1.19.2-16.3.20_mapped_official_1.19.2.jar with {bookshelf} mods - versions {16.3.20}
+[10dic.2024 17:09:15.080] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\net\darkhax\bookshelf\Bookshelf-Forge-1.19.2\16.3.20_mapped_official_1.19.2\Bookshelf-Forge-1.19.2-16.3.20_mapped_official_1.19.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[43,)]]
+[10dic.2024 17:09:15.080] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\build\resources\main
+[10dic.2024 17:09:15.082] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {enderdifficulty} mods - versions {1.0.2}
+[10dic.2024 17:09:15.082] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[43,)]]
+[10dic.2024 17:09:15.083] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[10dic.2024 17:09:15.083] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {43.3.0}
+[10dic.2024 17:09:15.083] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file / with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[10dic.2024 17:09:15.111] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[10dic.2024 17:09:15.111] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[10dic.2024 17:09:15.111] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[10dic.2024 17:09:15.111] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[10dic.2024 17:09:15.111] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[10dic.2024 17:09:15.112] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[10dic.2024 17:09:15.112] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\net\darkhax\gamestages\GameStages-Forge-1.19.2\11.1.4_mapped_official_1.19.2\GameStages-Forge-1.19.2-11.1.4_mapped_official_1.19.2.jar
+[10dic.2024 17:09:15.112] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file GameStages-Forge-1.19.2-11.1.4_mapped_official_1.19.2.jar with {gamestages} mods - versions {11.1.4}
+[10dic.2024 17:09:15.112] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\net\darkhax\gamestages\GameStages-Forge-1.19.2\11.1.4_mapped_official_1.19.2\GameStages-Forge-1.19.2-11.1.4_mapped_official_1.19.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[43,]]]
+[10dic.2024 17:09:15.113] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\konkrete-410295\5028409_mapped_official_1.19.2\konkrete-410295-5028409_mapped_official_1.19.2.jar
+[10dic.2024 17:09:15.113] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file konkrete-410295-5028409_mapped_official_1.19.2.jar with {konkrete} mods - versions {1.8.0}
+[10dic.2024 17:09:15.113] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\konkrete-410295\5028409_mapped_official_1.19.2\konkrete-410295-5028409_mapped_official_1.19.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[41,)]]
+[10dic.2024 17:09:15.114] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[10dic.2024 17:09:15.121] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[10dic.2024 17:09:15.121] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[10dic.2024 17:09:15.122] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 43
+[10dic.2024 17:09:15.122] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 43
+[10dic.2024 17:09:15.127] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[10dic.2024 17:09:15.127] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[10dic.2024 17:09:15.127] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[10dic.2024 17:09:15.128] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 8 mod requirements (8 mandatory, 0 optional)
+[10dic.2024 17:09:15.129] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[10dic.2024 17:09:15.432] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 30289 method mappings from methods.csv
+[10dic.2024 17:09:15.450] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 28897 field mappings from fields.csv
+[10dic.2024 17:09:15.484] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[10dic.2024 17:09:15.484] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[10dic.2024 17:09:15.484] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[10dic.2024 17:09:15.484] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[10dic.2024 17:09:15.486] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[10dic.2024 17:09:15.486] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[10dic.2024 17:09:15.670] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[10dic.2024 17:09:15.671] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[10dic.2024 17:09:15.719] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[10dic.2024 17:09:15.719] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[10dic.2024 17:09:15.751] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[10dic.2024 17:09:15.759] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3743539f to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[10dic.2024 17:09:15.760] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@55d58825 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[10dic.2024 17:09:15.760] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@19a64eae to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[10dic.2024 17:09:15.761] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@29a98d9f to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[10dic.2024 17:09:15.761] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2da3b078 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[10dic.2024 17:09:15.761] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@544e8149 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[10dic.2024 17:09:15.761] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7fb66650 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[10dic.2024 17:09:15.761] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1a96d94c to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[10dic.2024 17:09:15.761] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2a869a16 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[10dic.2024 17:09:15.761] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[10dic.2024 17:09:15.995] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[10dic.2024 17:09:15.995] [main/DEBUG] [mixin/]: Registering mixin config: mixins.endereyesdifficulty.json
+[10dic.2024 17:09:16.006] [main/DEBUG] [mixin/]: Compatibility level JAVA_17 specified by mixins.endereyesdifficulty.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[10dic.2024 17:09:16.008] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[10dic.2024 17:09:16.008] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[10dic.2024 17:09:16.008] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[10dic.2024 17:09:16.008] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[10dic.2024 17:09:16.008] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[10dic.2024 17:09:16.008] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[10dic.2024 17:09:16.008] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[10dic.2024 17:09:16.009] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[10dic.2024 17:09:16.009] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(bookshelf)
+[10dic.2024 17:09:16.009] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(bookshelf)
+[10dic.2024 17:09:16.009] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(bookshelf)
+[10dic.2024 17:09:16.009] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(bookshelf)
+[10dic.2024 17:09:16.009] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(bookshelf)
+[10dic.2024 17:09:16.009] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(bookshelf)]
+[10dic.2024 17:09:16.009] [main/DEBUG] [mixin/]: Registering mixin config: bookshelf.common.mixins.json
+[10dic.2024 17:09:16.010] [main/DEBUG] [mixin/]: Registering mixin config: bookshelf.forge.mixins.json
+[10dic.2024 17:09:16.011] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(enderdifficulty)
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(enderdifficulty)
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(enderdifficulty)
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(enderdifficulty)
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(enderdifficulty)
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(enderdifficulty)]
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(gamestages)
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(gamestages)
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(gamestages)
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(gamestages)
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(gamestages)
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(gamestages)]
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(konkrete)
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(konkrete)
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(konkrete)
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(konkrete)
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(konkrete)
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(konkrete)]
+[10dic.2024 17:09:16.012] [main/DEBUG] [mixin/]: Registering mixin config: konkrete.mixin.json
+[10dic.2024 17:09:16.015] [main/DEBUG] [mixin/]: inject() running with 7 agents
+[10dic.2024 17:09:16.015] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[10dic.2024 17:09:16.015] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[10dic.2024 17:09:16.015] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(bookshelf)]
+[10dic.2024 17:09:16.015] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(enderdifficulty)]
+[10dic.2024 17:09:16.015] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[10dic.2024 17:09:16.015] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(gamestages)]
+[10dic.2024 17:09:16.015] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(konkrete)]
+[10dic.2024 17:09:16.016] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Binar\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
+[10dic.2024 17:09:16.205] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[10dic.2024 17:09:16.207] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[10dic.2024 17:09:16.207] [main/DEBUG] [mixin/]: Selecting config mixins.endereyesdifficulty.json
+[10dic.2024 17:09:16.210] [main/WARN] [mixin/]: Reference map 'mixins.endereyesdifficulty.refmap.json' for mixins.endereyesdifficulty.json could not be read. If this is a development environment you can ignore this message
+[10dic.2024 17:09:16.210] [main/DEBUG] [mixin/]: Selecting config bookshelf.common.mixins.json
+[10dic.2024 17:09:16.376] [main/INFO] [mixin/]: Remapping refMap bookshelf.refmap.json using C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey/build/createSrgToMcp/output.srg
+[10dic.2024 17:09:16.376] [main/DEBUG] [mixin/]: Selecting config bookshelf.forge.mixins.json
+[10dic.2024 17:09:16.377] [main/INFO] [mixin/]: Remapping refMap bookshelf.refmap.json using C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey/build/createSrgToMcp/output.srg
+[10dic.2024 17:09:16.377] [main/DEBUG] [mixin/]: Selecting config konkrete.mixin.json
+[10dic.2024 17:09:16.378] [main/INFO] [mixin/]: Remapping refMap konkrete.mixin-refmap.json using C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey/build/createSrgToMcp/output.srg
+[10dic.2024 17:09:16.378] [main/DEBUG] [mixin/]: Preparing mixins.endereyesdifficulty.json (2)
+[10dic.2024 17:09:16.408] [main/DEBUG] [mixin/]: Preparing bookshelf.common.mixins.json (19)
+[10dic.2024 17:09:16.426] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[10dic.2024 17:09:16.472] [main/DEBUG] [mixin/]: Preparing bookshelf.forge.mixins.json (1)
+[10dic.2024 17:09:16.472] [main/DEBUG] [mixin/]: Preparing konkrete.mixin.json (4)
+[10dic.2024 17:09:16.488] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[10dic.2024 17:09:16.490] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[10dic.2024 17:09:16.490] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[10dic.2024 17:09:16.491] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[10dic.2024 17:09:16.492] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[10dic.2024 17:09:16.494] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[10dic.2024 17:09:16.506] [main/DEBUG] [mixin/]: Inner class eu/asangarin/endereyesdifficulty/mixin/MixinCreateWorldScreenEED$1 in eu/asangarin/endereyesdifficulty/mixin/MixinCreateWorldScreenEED on net/minecraft/client/gui/screens/worldselection/CreateWorldScreen gets unique name net/minecraft/client/gui/screens/worldselection/CreateWorldScreen$Anonymous$c9797fe41acb4dc8844ebe690e2217ac
+[10dic.2024 17:09:16.510] [main/DEBUG] [mixin/]: Prepared 26 mixins in 0.302 sec (11.6ms avg) (0ms load, 0ms transform, 0ms plugin)
+[10dic.2024 17:09:16.522] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[10dic.2024 17:09:16.524] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[10dic.2024 17:09:16.524] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[10dic.2024 17:09:16.660] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@3050ac2f
+[10dic.2024 17:09:16.867] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@3050ac2f
+[10dic.2024 17:09:17.549] [pool-3-thread-1/DEBUG] [mixin/]: Mixing entity.AccessorEntity from bookshelf.common.mixins.json into net.minecraft.world.entity.Entity
+[10dic.2024 17:09:17.583] [pool-3-thread-1/DEBUG] [mixin/]: Mixing entity.AccessorLivingEntity from bookshelf.common.mixins.json into net.minecraft.world.entity.LivingEntity
+[10dic.2024 17:09:17.597] [pool-3-thread-1/DEBUG] [mixin/]: Mixing entity.MixinLivingEntity from bookshelf.common.mixins.json into net.minecraft.world.entity.LivingEntity
+[10dic.2024 17:09:17.604] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[10dic.2024 17:09:17.716] [pool-3-thread-1/DEBUG] [mixin/]: Mixing item.AccessorItem from bookshelf.common.mixins.json into net.minecraft.world.item.Item
+[10dic.2024 17:09:17.784] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[10dic.2024 17:09:17.861] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[10dic.2024 17:09:17.889] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[10dic.2024 17:09:17.928] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[10dic.2024 17:09:18.162] [pool-3-thread-1/DEBUG] [mixin/]: Mixing block.entity.MixinBaseContainerBlockEntity from bookshelf.forge.mixins.json into net.minecraft.world.level.block.entity.BaseContainerBlockEntity
+[10dic.2024 17:09:18.347] [pool-3-thread-1/DEBUG] [mixin/]: Mixing inventory.AccessorCraftingMenu from bookshelf.common.mixins.json into net.minecraft.world.inventory.CraftingMenu
+[10dic.2024 17:09:18.355] [pool-3-thread-1/DEBUG] [mixin/]: Mixing block.entity.AccessorSignBlockEntity from bookshelf.common.mixins.json into net.minecraft.world.level.block.entity.SignBlockEntity
+[10dic.2024 17:09:18.378] [pool-3-thread-1/DEBUG] [mixin/]: Mixing entity.AccessorMob from bookshelf.common.mixins.json into net.minecraft.world.entity.Mob
+[10dic.2024 17:09:18.422] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[10dic.2024 17:09:18.675] [pool-3-thread-1/DEBUG] [mixin/]: Mixing entity.MixinLightningBolt from bookshelf.common.mixins.json into net.minecraft.world.entity.LightningBolt
+[10dic.2024 17:09:19.204] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[10dic.2024 17:09:19.638] [pool-3-thread-1/DEBUG] [mixin/]: Mixing util.random.AccessorWeightedRandomList from bookshelf.common.mixins.json into net.minecraft.util.random.WeightedRandomList
+[10dic.2024 17:09:19.789] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[10dic.2024 17:09:20.075] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[10dic.2024 17:09:20.125] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[10dic.2024 17:09:20.125] [pool-3-thread-1/DEBUG] [mixin/]: Mixing effect.AccessorMobEffectInstance from bookshelf.common.mixins.json into net.minecraft.world.effect.MobEffectInstance
+[10dic.2024 17:09:20.206] [pool-3-thread-1/DEBUG] [mixin/]: Mixing item.crafting.AccessorShapedRecipe from bookshelf.common.mixins.json into net.minecraft.world.item.crafting.ShapedRecipe
+[10dic.2024 17:09:20.207] [pool-3-thread-1/DEBUG] [mixin/]: Renaming @Invoker method bookshelf$keyFromJson(Lcom/google/gson/JsonObject;)Ljava/util/Map; to bookshelf$keyFromJson_$md$430607$0 in bookshelf.common.mixins.json:item.crafting.AccessorShapedRecipe
+[10dic.2024 17:09:20.209] [pool-3-thread-1/DEBUG] [mixin/]: Renaming @Invoker method bookshelf$shrink([Ljava/lang/String;)[Ljava/lang/String; to bookshelf$shrink_$md$430607$1 in bookshelf.common.mixins.json:item.crafting.AccessorShapedRecipe
+[10dic.2024 17:09:20.211] [pool-3-thread-1/DEBUG] [mixin/]: Renaming @Invoker method bookshelf$patternFromJson(Lcom/google/gson/JsonArray;)[Ljava/lang/String; to bookshelf$patternFromJson_$md$430607$2 in bookshelf.common.mixins.json:item.crafting.AccessorShapedRecipe
+[10dic.2024 17:09:20.213] [pool-3-thread-1/DEBUG] [mixin/]: Renaming @Invoker method bookshelf$dissolvePattern([Ljava/lang/String;Ljava/util/Map;II)Lnet/minecraft/core/NonNullList; to bookshelf$dissolvePattern_$md$430607$3 in bookshelf.common.mixins.json:item.crafting.AccessorShapedRecipe
+[10dic.2024 17:09:20.459] [Render thread/DEBUG] [mixin/]: Mixing client.AccessorMinecraft from bookshelf.common.mixins.json into net.minecraft.client.Minecraft
+[10dic.2024 17:09:20.463] [Render thread/DEBUG] [mixin/]: Mixing MixinMinecraft from konkrete.mixin.json into net.minecraft.client.Minecraft
+[10dic.2024 17:09:20.463] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$onScreenTickInTick$0()V to md430607$lambda$onScreenTickInTick$0$0 in konkrete.mixin.json:MixinMinecraft
+[10dic.2024 17:09:20.574] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Binar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.3.0_mapped_official_1.19.2/forge-1.19.2-43.3.0_mapped_official_1.19.2-recomp.jar%23188!/assets/.mcassetsroot' uses unexpected schema
+[10dic.2024 17:09:20.574] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Binar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.3.0_mapped_official_1.19.2/forge-1.19.2-43.3.0_mapped_official_1.19.2-recomp.jar%23188!/data/.mcassetsroot' uses unexpected schema
+[10dic.2024 17:09:20.588] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10dic.2024 17:09:20.592] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[10dic.2024 17:09:20.692] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[10dic.2024 17:09:21.123] [Render thread/DEBUG] [mixin/]: Mixing MixinMouseHandler from konkrete.mixin.json into net.minecraft.client.MouseHandler
+[10dic.2024 17:09:21.123] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$onOnPress$0(DDI)V to md430607$lambda$onOnPress$0$0 in konkrete.mixin.json:MixinMouseHandler
+[10dic.2024 17:09:21.134] [Render thread/DEBUG] [mixin/]: Mixing MixinKeyboardHandler from konkrete.mixin.json into net.minecraft.client.KeyboardHandler
+[10dic.2024 17:09:21.134] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$onCharTyped$2(II)V to md430607$lambda$onCharTyped$2$0 in konkrete.mixin.json:MixinKeyboardHandler
+[10dic.2024 17:09:21.134] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$onKeyPressHandleRelease$1(IIII)V to md430607$lambda$onKeyPressHandleRelease$1$1 in konkrete.mixin.json:MixinKeyboardHandler
+[10dic.2024 17:09:21.134] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$onKeyPressHandlePress$0(IIII)V to md430607$lambda$onKeyPressHandlePress$0$2 in konkrete.mixin.json:MixinKeyboardHandler
+[10dic.2024 17:09:21.230] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5642
+[10dic.2024 17:09:21.248] [Render thread/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 16 threads for parallel mod-loading
+[10dic.2024 17:09:21.255] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3050ac2f - got cpw.mods.cl.ModuleClassLoader@3bc735b3
+[10dic.2024 17:09:21.255] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.darkhax.bookshelf.BookshelfForge
+[10dic.2024 17:09:21.260] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3050ac2f - got cpw.mods.cl.ModuleClassLoader@3bc735b3
+[10dic.2024 17:09:21.260] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[10dic.2024 17:09:21.262] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3050ac2f - got cpw.mods.cl.ModuleClassLoader@3bc735b3
+[10dic.2024 17:09:21.262] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for eu.asangarin.endereyesdifficulty.EnderDifficulty
+[10dic.2024 17:09:21.264] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3050ac2f - got cpw.mods.cl.ModuleClassLoader@3bc735b3
+[10dic.2024 17:09:21.264] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for de.keksuccino.konkrete.Konkrete
+[10dic.2024 17:09:21.264] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3050ac2f - got cpw.mods.cl.ModuleClassLoader@3bc735b3
+[10dic.2024 17:09:21.264] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.darkhax.gamestages.GameStages
+[10dic.2024 17:09:21.281] [modloading-worker-0/DEBUG] [Bookshelf/]: Loaded net.darkhax.bookshelf.impl.util.PlatformHelperForge@541ac66d for service interface net.darkhax.bookshelf.api.util.IPlatformHelper.
+[10dic.2024 17:09:21.282] [modloading-worker-0/DEBUG] [Bookshelf/]: Loaded net.darkhax.bookshelf.impl.event.EventHelperForge@36bca131 for service interface net.darkhax.bookshelf.api.event.IEventHelper.
+[10dic.2024 17:09:21.287] [modloading-worker-0/DEBUG] [Bookshelf/]: Loaded net.darkhax.bookshelf.impl.registry.GameRegistriesForge@455f54c0 for service interface net.darkhax.bookshelf.api.registry.IGameRegistries.
+[10dic.2024 17:09:21.289] [modloading-worker-0/DEBUG] [Bookshelf/]: Loaded net.darkhax.bookshelf.impl.data.TagHelperForge@7f6c03a5 for service interface net.darkhax.bookshelf.api.data.ITagHelper.
+[10dic.2024 17:09:21.291] [modloading-worker-0/DEBUG] [Bookshelf/]: Loaded net.darkhax.bookshelf.impl.util.InventoryHelperForge@5bee5d5c for service interface net.darkhax.bookshelf.api.util.IInventoryHelper.
+[10dic.2024 17:09:21.292] [modloading-worker-0/DEBUG] [Bookshelf/]: Loaded net.darkhax.bookshelf.impl.util.ConstructHelperForge@1d56f2ab for service interface net.darkhax.bookshelf.api.util.IConstructHelper.
+[10dic.2024 17:09:21.296] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 43.3 from cpw.mods.modlauncher.TransformingClassLoader@3050ac2f
+[10dic.2024 17:09:21.296] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 43.3.0
+[10dic.2024 17:09:21.296] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 43.3
+[10dic.2024 17:09:21.297] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[10dic.2024 17:09:21.297] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.19.2 from cpw.mods.modlauncher.TransformingClassLoader@3050ac2f
+[10dic.2024 17:09:21.297] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.19.2
+[10dic.2024 17:09:21.297] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20220805.130853
+[10dic.2024 17:09:21.298] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.3.0, for MC 1.19.2 with MCP 20220805.130853
+[10dic.2024 17:09:21.298] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.3.0 Initialized
+[10dic.2024 17:09:21.299] [modloading-worker-0/DEBUG] [Game Stages/]: Reloading fakeplayers stage data from fake_players.json.
+[10dic.2024 17:09:21.300] [modloading-worker-0/DEBUG] [Game Stages/]: Reloading known stages data from known_stages.json.
+[10dic.2024 17:09:21.304] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for enderdifficulty
+[10dic.2024 17:09:21.308] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing eu.asangarin.endereyesdifficulty.event.EEDEvents to FORGE
+[10dic.2024 17:09:21.310] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for gamestages
+[10dic.2024 17:09:21.310] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.darkhax.gamestages.data.GameStageSaveHandler to FORGE
+[10dic.2024 17:09:21.319] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[10dic.2024 17:09:21.319] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[10dic.2024 17:09:21.319] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for konkrete
+[10dic.2024 17:09:21.320] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[10dic.2024 17:09:21.320] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[10dic.2024 17:09:21.320] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[10dic.2024 17:09:21.320] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[10dic.2024 17:09:21.320] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[10dic.2024 17:09:21.320] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[10dic.2024 17:09:21.320] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[10dic.2024 17:09:21.321] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for bookshelf
+[10dic.2024 17:09:21.322] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.darkhax.bookshelf.impl.gametest.BookshelfForgeGameTests to MOD
+[10dic.2024 17:09:21.357] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[10dic.2024 17:09:21.357] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
+[10dic.2024 17:09:21.358] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[10dic.2024 17:09:21.359] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[10dic.2024 17:09:21.359] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[10dic.2024 17:09:21.359] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[10dic.2024 17:09:21.359] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.77.Final.jar%23146!/:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:287) ~[netty-common-4.1.77.Final.jar%23146!/:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:281) ~[netty-common-4.1.77.Final.jar%23146!/:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) ~[netty-common-4.1.77.Final.jar%23146!/:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.77.Final.jar%23146!/:4.1.77.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.77.Final.jar%23146!/:4.1.77.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.77.Final.jar%23146!/:4.1.77.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.77.Final.jar%23146!/:4.1.77.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.19.2-43.3.0_mapped_official_1.19.2-recomp.jar%23187%23194!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:436) ~[forge-1.19.2-43.3.0_mapped_official_1.19.2-recomp.jar%23187%23194!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.19.2-43.3.0.jar%23189!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:121) ~[fmlcore-1.19.2-43.3.0.jar%23192!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[10dic.2024 17:09:21.360] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[10dic.2024 17:09:21.361] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 (in module io.netty.common) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.common
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:561) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:409) ~[netty-common-4.1.77.Final.jar%23146!/:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:400) ~[netty-common-4.1.77.Final.jar%23146!/:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) ~[netty-common-4.1.77.Final.jar%23146!/:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.77.Final.jar%23146!/:4.1.77.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.77.Final.jar%23146!/:4.1.77.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.77.Final.jar%23146!/:4.1.77.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.77.Final.jar%23146!/:4.1.77.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.19.2-43.3.0_mapped_official_1.19.2-recomp.jar%23187%23194!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:436) ~[forge-1.19.2-43.3.0_mapped_official_1.19.2-recomp.jar%23187%23194!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.19.2-43.3.0.jar%23189!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:121) ~[fmlcore-1.19.2-43.3.0.jar%23192!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[10dic.2024 17:09:21.362] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[10dic.2024 17:09:21.362] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[10dic.2024 17:09:21.362] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 4215275520 bytes (maybe)
+[10dic.2024 17:09:21.364] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\Binar\AppData\Local\Temp (java.io.tmpdir)
+[10dic.2024 17:09:21.364] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[10dic.2024 17:09:21.364] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[10dic.2024 17:09:21.364] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[10dic.2024 17:09:21.364] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[10dic.2024 17:09:21.364] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[10dic.2024 17:09:21.364] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[10dic.2024 17:09:21.388] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Loading Network data for FML net version: FML3
+[10dic.2024 17:09:21.410] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[10dic.2024 17:09:21.410] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[10dic.2024 17:09:21.410] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-common.toml for forge tracking
+[10dic.2024 17:09:21.417] [modloading-worker-0/DEBUG] [mixin/]: Mixing packs.resources.MixinSimpleJsonResourceReloadListener from bookshelf.common.mixins.json into net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener
+[10dic.2024 17:09:21.418] [modloading-worker-0/DEBUG] [mixin/]: Renaming synthetic method lambda$prepare$0(Ljava/util/Map$Entry;)Z to md430607$lambda$prepare$0$0 in bookshelf.common.mixins.json:packs.resources.MixinSimpleJsonResourceReloadListener
+[10dic.2024 17:09:21.431] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[10dic.2024 17:09:21.431] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[10dic.2024 17:09:21.434] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$ColorRegisterHandler to MOD
+[10dic.2024 17:09:21.436] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.data.ModelDataManager to FORGE
+[10dic.2024 17:09:21.437] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ForgeHooksClient$ClientEvents to MOD
+[10dic.2024 17:09:21.444] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ClientForgeMod to MOD
+[10dic.2024 17:09:21.466] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
+[10dic.2024 17:09:21.467] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
+[10dic.2024 17:09:21.467] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
+[10dic.2024 17:09:21.467] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
+[10dic.2024 17:09:21.486] [Render thread/DEBUG] [bookshelf/]: Built 2 minecraft:recipe_serializer entries. Took 2.67ms.
+[10dic.2024 17:09:21.500] [Render thread/DEBUG] [bookshelf/]: Built 2 minecraft:command_argument_type entries. Took 2.76ms.
+[10dic.2024 17:09:21.567] [Render thread/DEBUG] [mixin/]: Mixing inventory.AccessorInventoryMenu from bookshelf.common.mixins.json into net.minecraft.world.inventory.InventoryMenu
+[10dic.2024 17:09:21.602] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:bookshelf for mod file C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\net\darkhax\bookshelf\Bookshelf-Forge-1.19.2\16.3.20_mapped_official_1.19.2\Bookshelf-Forge-1.19.2-16.3.20_mapped_official_1.19.2.jar
+[10dic.2024 17:09:21.602] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file /
+[10dic.2024 17:09:21.603] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:enderdifficulty for mod file C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\build\resources\main
+[10dic.2024 17:09:21.603] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:konkrete for mod file C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\konkrete-410295\5028409_mapped_official_1.19.2\konkrete-410295-5028409_mapped_official_1.19.2.jar
+[10dic.2024 17:09:21.603] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:gamestages for mod file C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\net\darkhax\gamestages\GameStages-Forge-1.19.2\11.1.4_mapped_official_1.19.2\GameStages-Forge-1.19.2-11.1.4_mapped_official_1.19.2.jar
+[10dic.2024 17:09:21.656] [Render thread/DEBUG] [mixin/]: Mixing client.AccessorFontManager from bookshelf.common.mixins.json into net.minecraft.client.gui.font.FontManager
+[10dic.2024 17:09:21.981] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [enderdifficulty]
+[10dic.2024 17:09:22.037] [Render thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[10dic.2024 17:09:22.037] [Render thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[10dic.2024 17:09:22.037] [Render thread/DEBUG] [io.netty.util.internal.ThreadLocalRandom/]: -Dio.netty.initialSeedUniquifier: 0x070f7620d39fa5be
+[10dic.2024 17:09:22.222] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[10dic.2024 17:09:22.248] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[10dic.2024 17:09:22.249] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\run\config\forge-client.toml
+[10dic.2024 17:09:22.252] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\run\config\forge-client.toml
+[10dic.2024 17:09:22.253] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\run\config\forge-client.toml for changes
+[10dic.2024 17:09:22.256] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-client.toml
+[10dic.2024 17:09:22.257] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[10dic.2024 17:09:22.257] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\run\config\forge-common.toml
+[10dic.2024 17:09:22.259] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\run\config\forge-common.toml
+[10dic.2024 17:09:22.260] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\run\config\forge-common.toml for changes
+[10dic.2024 17:09:22.260] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-common.toml
+[10dic.2024 17:09:22.264] [Render thread/DEBUG] [mixin/]: Mixing MixinOptionsScreenEED from mixins.endereyesdifficulty.json into net.minecraft.client.gui.screens.OptionsScreen
+[10dic.2024 17:09:22.264] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$eed$createDifficultyButton$1(Lnet/minecraft/client/gui/components/CycleButton;Lnet/minecraft/world/Difficulty;)V to md430607$lambda$eed$createDifficultyButton$1$0 in mixins.endereyesdifficulty.json:MixinOptionsScreenEED
+[10dic.2024 17:09:22.264] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$eed$createDifficultyButton$0(Lnet/minecraft/world/Difficulty;)Lnet/minecraft/network/chat/Component; to md430607$lambda$eed$createDifficultyButton$0$1 in mixins.endereyesdifficulty.json:MixinOptionsScreenEED
+[10dic.2024 17:09:22.488] [Worker-Main-7/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Client-side libs ready to use!
+[10dic.2024 17:09:22.490] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue SIDED_SETUP: 1 jobs
+[10dic.2024 17:09:22.493] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 817.8 ?s
+[10dic.2024 17:09:22.559] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.19.2
+[10dic.2024 17:09:24.102] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Received version check data:
+{"homepage":"https://www.curseforge.com/minecraft/mc-mods/bookshelf","promos":{"1.19.2-latest":"16.3.20"}}
+[10dic.2024 17:09:24.103] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 16.3.20 Target: 16.3.20
+[10dic.2024 17:09:24.104] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[10dic.2024 17:09:24.665] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10_pre4-latest": "10.12.2.1149",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2860",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.26",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.57",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.42",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-recommended": "40.2.0",
+    "1.18.2-latest": "40.2.26",
+    "1.19-latest": "41.1.0",
+    "1.19-recommended": "41.1.0",
+    "1.19.1-latest": "42.0.9",
+    "1.19.2-recommended": "43.4.0",
+    "1.19.2-latest": "43.4.6",
+    "1.19.3-latest": "44.1.23",
+    "1.19.3-recommended": "44.1.0",
+    "1.19.4-recommended": "45.3.0",
+    "1.19.4-latest": "45.3.9",
+    "1.20-latest": "46.0.14",
+    "1.20.1-recommended": "47.3.0",
+    "1.20.1-latest": "47.3.12",
+    "1.20.2-latest": "48.1.0",
+    "1.20.2-recommended": "48.1.0",
+    "1.20.3-latest": "49.0.2",
+    "1.20.4-latest": "49.1.13",
+    "1.20.4-recommended": "49.1.0",
+    "1.20.6-latest": "50.1.23",
+    "1.20.6-recommended": "50.1.0",
+    "1.21-latest": "51.0.33",
+    "1.21.1-latest": "52.0.28",
+    "1.21.3-latest": "53.0.25",
+    "1.21.4-latest": "54.0.6"
+  }
+}
+[10dic.2024 17:09:24.666] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.3.0 Target: 43.4.0
+[10dic.2024 17:09:24.666] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gamestages] Starting version check at https://updates.blamejared.com/get?n=gamestages&gv=1.19.2
+[10dic.2024 17:09:24.825] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [gamestages] Received version check data:
+{"homepage":"https://www.curseforge.com/minecraft/mc-mods/game-stages","promos":{"1.19.2-latest":"11.1.5"}}
+[10dic.2024 17:09:24.825] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gamestages] Found status: BETA_OUTDATED Current: 11.1.4 Target: 11.1.5
+[10dic.2024 17:09:32.173] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5931
+[10dic.2024 17:09:32.218] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[10dic.2024 17:09:32.218] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[10dic.2024 17:09:32.303] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[10dic.2024 17:09:32.303] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[10dic.2024 17:09:32.397] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[10dic.2024 17:09:32.484] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[10dic.2024 17:09:32.488] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[10dic.2024 17:09:32.491] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[10dic.2024 17:09:32.495] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[10dic.2024 17:09:32.498] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[10dic.2024 17:09:32.498] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[10dic.2024 17:09:33.162] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[10dic.2024 17:09:33.490] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[10dic.2024 17:09:33.504] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[10dic.2024 17:09:33.506] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[10dic.2024 17:09:34.021] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[10dic.2024 17:10:02.920] [Render thread/DEBUG] [mixin/]: Mixing IMixinEditBox from konkrete.mixin.json into net.minecraft.client.gui.components.EditBox
+[10dic.2024 17:10:02.997] [Render thread/DEBUG] [mixin/]: Mixing MixinCreateWorldScreenEED from mixins.endereyesdifficulty.json into net.minecraft.client.gui.screens.worldselection.CreateWorldScreen
+[10dic.2024 17:10:02.999] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/client/gui/components/Button;)V to md430607$lambda$onInit$1$0 in mixins.endereyesdifficulty.json:MixinCreateWorldScreenEED
+[10dic.2024 17:10:02.999] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$onInit$0(Lnet/minecraft/client/gui/components/Button;)V to md430607$lambda$onInit$0$1 in mixins.endereyesdifficulty.json:MixinCreateWorldScreenEED
+[10dic.2024 17:10:03.946] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:bookshelf for mod file C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\net\darkhax\bookshelf\Bookshelf-Forge-1.19.2\16.3.20_mapped_official_1.19.2\Bookshelf-Forge-1.19.2-16.3.20_mapped_official_1.19.2.jar
+[10dic.2024 17:10:03.947] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /
+[10dic.2024 17:10:03.948] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:enderdifficulty for mod file C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\build\resources\main
+[10dic.2024 17:10:03.948] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:konkrete for mod file C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\konkrete-410295\5028409_mapped_official_1.19.2\konkrete-410295-5028409_mapped_official_1.19.2.jar
+[10dic.2024 17:10:03.948] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:gamestages for mod file C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\net\darkhax\gamestages\GameStages-Forge-1.19.2\11.1.4_mapped_official_1.19.2\GameStages-Forge-1.19.2-11.1.4_mapped_official_1.19.2.jar
+[10dic.2024 17:10:04.664] [Render thread/DEBUG] [bookshelf/]: Built 1 Command entries. Took 5.5ms.
+[10dic.2024 17:10:05.218] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[10dic.2024 17:10:05.277] [Render thread/DEBUG] [mixin/]: Mixing loot.MixinLootItemKilledByPlayerCondition from bookshelf.common.mixins.json into net.minecraft.world.level.storage.loot.predicates.LootItemKilledByPlayerCondition
+[10dic.2024 17:10:05.643] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
+[10dic.2024 17:10:05.644] [Render thread/DEBUG] [Game Stages/]: Reloading fakeplayers stage data from fake_players.json.
+[10dic.2024 17:10:05.644] [Render thread/DEBUG] [Game Stages/]: Reloading known stages data from known_stages.json.
+[10dic.2024 17:10:05.943] [Render thread/DEBUG] [mixin/]: Generating mapped inner class net/minecraft/client/gui/screens/worldselection/CreateWorldScreen$Anonymous$c9797fe41acb4dc8844ebe690e2217ac (originally eu/asangarin/endereyesdifficulty/mixin/MixinCreateWorldScreenEED$1)
+[10dic.2024 17:10:05.949] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:bookshelf for mod file C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\net\darkhax\bookshelf\Bookshelf-Forge-1.19.2\16.3.20_mapped_official_1.19.2\Bookshelf-Forge-1.19.2-16.3.20_mapped_official_1.19.2.jar
+[10dic.2024 17:10:05.949] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /
+[10dic.2024 17:10:05.949] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:enderdifficulty for mod file C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\build\resources\main
+[10dic.2024 17:10:05.949] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:konkrete for mod file C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\konkrete-410295\5028409_mapped_official_1.19.2\konkrete-410295-5028409_mapped_official_1.19.2.jar
+[10dic.2024 17:10:05.950] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:gamestages for mod file C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\net\darkhax\gamestages\GameStages-Forge-1.19.2\11.1.4_mapped_official_1.19.2\GameStages-Forge-1.19.2-11.1.4_mapped_official_1.19.2.jar
+[10dic.2024 17:10:05.950] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:bookshelf for mod file C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\net\darkhax\bookshelf\Bookshelf-Forge-1.19.2\16.3.20_mapped_official_1.19.2\Bookshelf-Forge-1.19.2-16.3.20_mapped_official_1.19.2.jar
+[10dic.2024 17:10:05.950] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /
+[10dic.2024 17:10:05.950] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:enderdifficulty for mod file C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\build\resources\main
+[10dic.2024 17:10:05.950] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:konkrete for mod file C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\konkrete-410295\5028409_mapped_official_1.19.2\konkrete-410295-5028409_mapped_official_1.19.2.jar
+[10dic.2024 17:10:05.950] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:gamestages for mod file C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\net\darkhax\gamestages\GameStages-Forge-1.19.2\11.1.4_mapped_official_1.19.2\GameStages-Forge-1.19.2-11.1.4_mapped_official_1.19.2.jar
+[10dic.2024 17:10:06.211] [Render thread/DEBUG] [bookshelf/]: Rebuilding entries for bookshelf. Previous entries 1
+[10dic.2024 17:10:06.211] [Render thread/DEBUG] [bookshelf/]: Built 1 Command entries. Took 0.02ms.
+[10dic.2024 17:10:06.211] [Render thread/DEBUG] [bookshelf/]: Rebuilding entries for bookshelf. Previous entries 0
+[10dic.2024 17:10:06.673] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[10dic.2024 17:10:06.928] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
+[10dic.2024 17:10:06.929] [Render thread/DEBUG] [Game Stages/]: Reloading fakeplayers stage data from fake_players.json.
+[10dic.2024 17:10:06.929] [Render thread/DEBUG] [Game Stages/]: Reloading known stages data from known_stages.json.
+[10dic.2024 17:10:11.434] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:bookshelf for mod file C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\net\darkhax\bookshelf\Bookshelf-Forge-1.19.2\16.3.20_mapped_official_1.19.2\Bookshelf-Forge-1.19.2-16.3.20_mapped_official_1.19.2.jar
+[10dic.2024 17:10:11.434] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /
+[10dic.2024 17:10:11.435] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:enderdifficulty for mod file C:\Users\Binar\Desktop\Programacion\Minecraft\Forge\Enders Journey\build\resources\main
+[10dic.2024 17:10:11.435] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:konkrete for mod file C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\konkrete-410295\5028409_mapped_official_1.19.2\konkrete-410295-5028409_mapped_official_1.19.2.jar
+[10dic.2024 17:10:11.435] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:gamestages for mod file C:\Users\Binar\.gradle\caches\forge_gradle\deobf_dependencies\net\darkhax\gamestages\GameStages-Forge-1.19.2\11.1.4_mapped_official_1.19.2\GameStages-Forge-1.19.2-11.1.4_mapped_official_1.19.2.jar
+[10dic.2024 17:10:11.466] [Render thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
+[10dic.2024 17:10:11.474] [Render thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
+[10dic.2024 17:10:11.521] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
+[10dic.2024 17:10:11.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[10dic.2024 17:10:11.586] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making serverconfig directory : .\saves\New World (3)\serverconfig
+[10dic.2024 17:10:11.587] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created serverconfig directory : .\saves\New World (3)\serverconfig
+[10dic.2024 17:10:11.587] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[10dic.2024 17:10:11.588] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for .\saves\New World (3)\serverconfig\forge-server.toml
+[10dic.2024 17:10:11.590] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file .\saves\New World (3)\serverconfig\forge-server.toml
+[10dic.2024 17:10:11.591] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file .\saves\New World (3)\serverconfig\forge-server.toml for changes
+[10dic.2024 17:10:11.591] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World (3)\serverconfig\forge-server.toml is not correct. Correcting
+[10dic.2024 17:10:11.592] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[10dic.2024 17:10:11.592] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[10dic.2024 17:10:11.592] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.removeErroringBlockEntities does not match the spec. This may create a backup.
+[10dic.2024 17:10:11.592] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[10dic.2024 17:10:11.594] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.removeErroringEntities does not match the spec. This may create a backup.
+[10dic.2024 17:10:11.594] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[10dic.2024 17:10:11.594] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.fullBoundingBoxLadders does not match the spec. This may create a backup.
+[10dic.2024 17:10:11.594] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[10dic.2024 17:10:11.594] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.zombieBaseSummonChance does not match the spec. This may create a backup.
+[10dic.2024 17:10:11.594] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[10dic.2024 17:10:11.594] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.zombieBabyChance does not match the spec. This may create a backup.
+[10dic.2024 17:10:11.594] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[10dic.2024 17:10:11.594] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.fixAdvancementLoading does not match the spec. This may create a backup.
+[10dic.2024 17:10:11.594] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[10dic.2024 17:10:11.594] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.permissionHandler does not match the spec. This may create a backup.
+[10dic.2024 17:10:11.594] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server does not match the spec. This may create a backup.
+[10dic.2024 17:10:11.594] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[10dic.2024 17:10:21.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[10dic.2024 17:10:21.867] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10dic.2024 17:10:21.867] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10dic.2024 17:10:22.188] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10dic.2024 17:10:22.824] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10dic.2024 17:10:23.190] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10dic.2024 17:10:23.698] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[10dic.2024 17:10:24.217] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[10dic.2024 17:10:24.694] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[10dic.2024 17:10:25.247] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[10dic.2024 17:10:25.702] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[10dic.2024 17:10:26.188] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[10dic.2024 17:10:26.686] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[10dic.2024 17:10:27.190] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[10dic.2024 17:10:27.699] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[10dic.2024 17:10:28.186] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
+[10dic.2024 17:10:28.695] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
+[10dic.2024 17:10:29.190] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
+[10dic.2024 17:10:29.686] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
+[10dic.2024 17:10:30.206] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
+[10dic.2024 17:10:30.709] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 50%
+[10dic.2024 17:10:31.213] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
+[10dic.2024 17:10:31.691] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
+[10dic.2024 17:10:32.195] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
+[10dic.2024 17:10:32.712] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
+[10dic.2024 17:10:33.200] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[10dic.2024 17:10:33.687] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
+[10dic.2024 17:10:34.195] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
+[10dic.2024 17:10:35.113] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[10dic.2024 17:10:35.207] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[10dic.2024 17:10:35.694] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[10dic.2024 17:10:36.196] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
+[10dic.2024 17:10:36.696] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 95%
+[10dic.2024 17:10:37.040] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 15855 ms
+[10dic.2024 17:10:37.043] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[10dic.2024 17:10:37.107] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[10dic.2024 17:10:37.108] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[10dic.2024 17:10:37.139] [Render thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 32
+[10dic.2024 17:10:37.164] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
+[10dic.2024 17:10:37.164] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
+[10dic.2024 17:10:37.170] [Render thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[10dic.2024 17:10:37.220] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 27388 (auto-detected)
+[10dic.2024 17:10:37.223] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[10dic.2024 17:10:37.223] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[10dic.2024 17:10:37.223] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: false
+[10dic.2024 17:10:37.232] [Render thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[10dic.2024 17:10:37.236] [Render thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[10dic.2024 17:10:37.257] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: f0:b6:1e:ff:fe:3a:6f:33 (auto-detected)
+[10dic.2024 17:10:37.301] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 32
+[10dic.2024 17:10:37.301] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 32
+[10dic.2024 17:10:37.301] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[10dic.2024 17:10:37.301] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[10dic.2024 17:10:37.301] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[10dic.2024 17:10:37.301] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[10dic.2024 17:10:37.301] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[10dic.2024 17:10:37.301] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[10dic.2024 17:10:37.301] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[10dic.2024 17:10:37.301] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[10dic.2024 17:10:37.301] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[10dic.2024 17:10:37.301] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[10dic.2024 17:10:37.311] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[10dic.2024 17:10:37.312] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[10dic.2024 17:10:37.312] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[10dic.2024 17:10:37.342] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting local connection.
+[10dic.2024 17:10:37.423] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[10dic.2024 17:10:37.423] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[10dic.2024 17:10:37.423] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[10dic.2024 17:10:37.423] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[10dic.2024 17:10:37.449] [Netty Server IO #1/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[10dic.2024 17:10:37.449] [Netty Server IO #1/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[10dic.2024 17:10:37.451] [Netty Server IO #1/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3f1f4bc6
+[10dic.2024 17:10:37.458] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting local connection.
+[10dic.2024 17:10:37.470] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+[10dic.2024 17:10:37.477] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
+[10dic.2024 17:10:37.480] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+[10dic.2024 17:10:37.481] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[10dic.2024 17:10:37.482] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Logging into server with mod list [minecraft, bookshelf, forge, enderdifficulty, konkrete, gamestages]
+[10dic.2024 17:10:37.484] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML3' from server : ACCEPTED
+[10dic.2024 17:10:37.484] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from server : ACCEPTED
+[10dic.2024 17:10:37.484] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML3' from server : ACCEPTED
+[10dic.2024 17:10:37.484] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'gamestages:main' : Version test of '9' from server : ACCEPTED
+[10dic.2024 17:10:37.484] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML3' from server : ACCEPTED
+[10dic.2024 17:10:37.484] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML3' from server : ACCEPTED
+[10dic.2024 17:10:37.484] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML3' from server : ACCEPTED
+[10dic.2024 17:10:37.484] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from server : ACCEPTED
+[10dic.2024 17:10:37.484] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'enderdifficulty:main' : Version test of '1' from server : ACCEPTED
+[10dic.2024 17:10:37.484] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from server
+[10dic.2024 17:10:37.486] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 1
+[10dic.2024 17:10:37.486] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted server connection
+[10dic.2024 17:10:37.486] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[10dic.2024 17:10:37.486] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+[10dic.2024 17:10:37.487] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, bookshelf, forge, enderdifficulty, konkrete, gamestages]
+[10dic.2024 17:10:37.487] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
+[10dic.2024 17:10:37.487] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+[10dic.2024 17:10:37.487] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
+[10dic.2024 17:10:37.487] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'gamestages:main' : Version test of '9' from client : ACCEPTED
+[10dic.2024 17:10:37.487] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
+[10dic.2024 17:10:37.487] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
+[10dic.2024 17:10:37.487] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
+[10dic.2024 17:10:37.487] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+[10dic.2024 17:10:37.487] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'enderdifficulty:main' : Version test of '1' from client : ACCEPTED
+[10dic.2024 17:10:37.487] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[10dic.2024 17:10:37.489] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
+[10dic.2024 17:10:37.491] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 2
+[10dic.2024 17:10:37.491] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 2
+[10dic.2024 17:10:37.492] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received config sync from server
+[10dic.2024 17:10:37.492] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 2
+[10dic.2024 17:10:37.492] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 2
+[10dic.2024 17:10:37.492] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10dic.2024 17:10:37.492] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10dic.2024 17:10:37.498] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[10dic.2024 17:10:37.517] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[10dic.2024 17:10:37.519] [Server thread/DEBUG] [mixin/]: Mixing item.AccessorItemCooldowns from bookshelf.common.mixins.json into net.minecraft.world.item.ItemCooldowns
+[10dic.2024 17:10:37.542] [Server thread/DEBUG] [mixin/]: Mixing inventory.AccessorCraftingContainer from bookshelf.common.mixins.json into net.minecraft.world.inventory.CraftingContainer
+[10dic.2024 17:10:37.568] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@212a346
+[10dic.2024 17:10:37.582] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:67403e85] logged in with entity id 197 at (-2.5, 106.0, -9.5)
+[10dic.2024 17:10:37.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[10dic.2024 17:10:37.742] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:38.318] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[10dic.2024 17:10:42.772] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:42.779] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:42.779] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:42.779] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:42.779] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:10:42.786] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:10:42.786] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:42.786] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:42.786] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:42.787] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:10:47.713] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:10:47.713] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:47.713] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:47.713] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:47.714] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:10:47.744] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:10:47.744] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:47.744] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:47.744] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:47.744] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:10:52.708] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:10:52.708] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:52.708] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:52.708] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:52.708] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:10:52.744] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:10:52.745] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:52.745] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:52.745] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:52.745] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:10:57.702] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:10:57.702] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:57.702] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:57.702] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:57.702] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:10:57.744] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:10:57.744] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:57.744] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:57.744] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:10:57.744] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:11:02.700] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:11:02.701] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:11:02.701] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:11:02.701] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:11:02.701] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:11:02.744] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:11:02.744] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:11:02.744] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:11:02.744] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:11:02.744] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:11:05.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: The difficulty has been set to Nightmare]
+[10dic.2024 17:11:05.762] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The difficulty has been set to Nightmare
+[10dic.2024 17:11:07.700] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:11:07.700] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:11:07.700] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:11:07.700] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:11:07.701] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:11:07.744] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:11:07.744] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:11:07.744] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:11:07.744] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:11:07.744] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:11:12.708] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:11:12.708] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:11:12.708] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:11:12.708] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:11:12.708] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:11:12.744] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:11:12.744] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:11:12.744] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.
+[10dic.2024 17:11:12.744] [Server thread/DEBUG] [Game Stages/]: Syncing 0 stages for literal{Dev}.
+[10dic.2024 17:11:12.744] [Server thread/DEBUG] [Game Stages/]: Syncing 1 stages for literal{Dev}.

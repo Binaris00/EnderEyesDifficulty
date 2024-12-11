@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: enderdifficulty
+Specification-Vendor: ASangarin
+Specification-Version: 1
+Implementation-Title: EnderEyesDifficulty
+Implementation-Version: 1.0.3
+Implementation-Vendor: ASangarin
+Implementation-Timestamp: 2024-12-10T17:11:23-0400
+MixinConfigs: mixins.endereyesdifficulty.json
+

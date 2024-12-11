@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2024-12-10 17:06:14 -0400",
+      "minecraft:sparse_jungle": "2024-12-10 17:06:11 -0400"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}
